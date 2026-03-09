@@ -24,5 +24,3 @@ cricket-event-management/
 │   ├── cricket1.jpg
 │   ├── stadium.jpg
 │   └── team.jpg
-│
-└── README.md
