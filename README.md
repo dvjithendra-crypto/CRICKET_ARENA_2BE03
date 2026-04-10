@@ -20,7 +20,7 @@ This project demonstrates strong fundamentals in frontend development, including
 ## TEAM NAME
 GIT SIDE SMASHERS
 ## TEAM LEADER
-GEORGE MANGLUNLAL 
+DV JITHENDRA
 ## TEAM MEMBERS
 DV JITHENDRA -USN:2082508069
 GEORGE MANGLUNLAL-USN:2102508036
