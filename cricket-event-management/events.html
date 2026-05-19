@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CRICKETARENA | Events</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">CRICKETARENA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link active" href="events.html">Events</a></li>
+            <li class="nav-item"><a class="nav-link" href="teams.html">Teams</a></li>
+            <li class="nav-item"><a class="nav-link" href="register.html">Registration</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="page-header">
+      <div class="container">
+        <p class="eyebrow">Tournament desk</p>
+        <h1>Events and match schedule</h1>
+        <p>Browse upcoming, ongoing, and completed tournaments with fixtures, venues, and match timelines.</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="event-filter" role="group" aria-label="Filter events">
+            <button class="filter-btn active" type="button" data-filter="all">All</button>
+            <button class="filter-btn" type="button" data-filter="upcoming">Upcoming</button>
+            <button class="filter-btn" type="button" data-filter="ongoing">Ongoing</button>
+            <button class="filter-btn" type="button" data-filter="past">Past</button>
+          </div>
+
+          <div class="event-grid">
+            <article class="event-card" data-status="upcoming">
+              <span class="status-badge upcoming">Upcoming</span>
+              <h2>Inter-College T20 Cup</h2>
+              <p>Fast-paced T20 tournament for student teams.</p>
+              <ul class="clean-list">
+                <li>Date: 28 May 2026</li>
+                <li>Venue: City Sports Ground</li>
+                <li>Teams: 12</li>
+              </ul>
+            </article>
+            <article class="event-card" data-status="ongoing">
+              <span class="status-badge ongoing">Ongoing</span>
+              <h2>Summer League Championship</h2>
+              <p>League format tournament with points table and knockout rounds.</p>
+              <ul class="clean-list">
+                <li>Date: 12-24 May 2026</li>
+                <li>Venue: Central Cricket Arena</li>
+                <li>Teams: 8</li>
+              </ul>
+            </article>
+            <article class="event-card" data-status="past">
+              <span class="status-badge past">Past</span>
+              <h2>Winter Knockout Series</h2>
+              <p>Single-elimination cricket tournament completed successfully.</p>
+              <ul class="clean-list">
+                <li>Date: 10 Jan 2026</li>
+                <li>Winner: Git Side Smashers</li>
+                <li>Teams: 10</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Fixtures</p>
+            <h2>Match schedule</h2>
+          </div>
+          <div class="table-responsive">
+            <table class="table schedule-table">
+              <thead>
+                <tr>
+                  <th>Match</th>
+                  <th>Date</th>
+                  <th>Time</th>
+                  <th>Venue</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Git Side Smashers vs Thunder Strikers</td>
+                  <td>20 May 2026</td>
+                  <td>09:30 AM</td>
+                  <td>Ground A</td>
+                  <td><span class="status-badge upcoming">Upcoming</span></td>
+                </tr>
+                <tr>
+                  <td>Royal Hitters vs Boundary Kings</td>
+                  <td>20 May 2026</td>
+                  <td>01:30 PM</td>
+                  <td>Ground B</td>
+                  <td><span class="status-badge upcoming">Upcoming</span></td>
+                </tr>
+                <tr>
+                  <td>Pitch Warriors vs Spin Masters</td>
+                  <td>18 May 2026</td>
+                  <td>10:00 AM</td>
+                  <td>Ground A</td>
+                  <td><span class="status-badge past">Completed</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>&copy; 2026 CRICKETARENA. All rights reserved.</p>
+        <p>Built by Team Git Side Smashers.</p>
+      </div>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CRICKETARENA | Contact</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">CRICKETARENA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+            <li class="nav-item"><a class="nav-link" href="teams.html">Teams</a></li>
+            <li class="nav-item"><a class="nav-link" href="register.html">Registration</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="page-header">
+      <div class="container">
+        <p class="eyebrow">Support desk</p>
+        <h1>Contact CRICKETARENA</h1>
+        <p>Send questions about tournaments, team registration, match fixtures, or platform support.</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container contact-layout">
+          <div class="project-panel contact-panel">
+            <h2>Reach us</h2>
+            <p><strong>Email:</strong> support@cricketarena.example</p>
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p><strong>Location:</strong> Central Cricket Arena, India</p>
+            <p><strong>Hours:</strong> Monday to Saturday, 9:00 AM - 6:00 PM</p>
+          </div>
+          <form class="registration-form" id="contactForm" novalidate>
+            <label class="form-label" for="name">Full Name</label>
+            <input class="form-control" id="name" name="name" type="text" required>
+            <label class="form-label" for="contactEmail">Email</label>
+            <input class="form-control" id="contactEmail" name="contactEmail" type="email" required>
+            <label class="form-label" for="subject">Subject</label>
+            <input class="form-control" id="subject" name="subject" type="text" required>
+            <label class="form-label" for="contactMessage">Message</label>
+            <textarea class="form-control" id="contactMessage" name="contactMessage" rows="5" required></textarea>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p class="form-message" id="contactMessageStatus" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>&copy; 2026 CRICKETARENA. All rights reserved.</p>
+        <p>Built by Team Git Side Smashers.</p>
+      </div>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
